@@ -2,12 +2,10 @@ import re
 import nltk
 from nltk.tokenize import word_tokenize
 
-# Download tokenizer (only first time)
 nltk.download('punkt')
 
 print("🤖 Chatbot: Hello! Type 'bye' to exit.")
 
-# Predefined response patterns
 rules = {
     r"hi|hello|hey": "Hello! How can I help you today?",
     r"how are you": "I'm doing great! How about you?",
