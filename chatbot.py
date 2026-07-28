@@ -33,7 +33,6 @@ def generate_response(user_input):
             return response
     return "Sorry, I didn't understand that. Can you rephrase?"
 
-# Chat loop
 while True:
     user_input = input("You: ").lower()
 
