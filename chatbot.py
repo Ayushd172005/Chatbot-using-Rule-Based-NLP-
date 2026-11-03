@@ -4,7 +4,7 @@ from nltk.tokenize import word_tokenize
 
 nltk.download('punkt')
 
-print("🤖 Chatbot: Hello! Type 'bye' to exit.")
+print("🤖 Chatbot: Hello! Type 'bye' to exit.") 
 
 rules = {
     r"hi|hello|hey": "Hello! How can I help you today?",
